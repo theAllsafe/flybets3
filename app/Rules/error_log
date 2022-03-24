@@ -1,0 +1,16 @@
+[12-Mar-2022 15:27:00 UTC] PHP Fatal error:  Uncaught Error: Interface 'Illuminate\Contracts\Validation\Rule' not found in /home/bittaskc/public_html/drons-master/app/Rules/DocumentIDTypeRule.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/bittaskc/public_html/drons-master/app/Rules/DocumentIDTypeRule.php on line 7
+[12-Mar-2022 15:27:03 UTC] PHP Fatal error:  Uncaught Error: Interface 'Illuminate\Contracts\Validation\Rule' not found in /home/bittaskc/public_html/drons-master/app/Rules/HasFile.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/bittaskc/public_html/drons-master/app/Rules/HasFile.php on line 7
+[12-Mar-2022 15:29:24 UTC] PHP Fatal error:  Uncaught Error: Interface 'Illuminate\Contracts\Validation\Rule' not found in /home/bittaskc/public_html/drons-master/app/Rules/NotRecreational.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/bittaskc/public_html/drons-master/app/Rules/NotRecreational.php on line 7
+[12-Mar-2022 15:48:50 UTC] PHP Fatal error:  Uncaught Error: Interface 'Illuminate\Contracts\Validation\Rule' not found in /home/bittaskc/public_html/drons-master/app/Rules/CertificateNotNone.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/bittaskc/public_html/drons-master/app/Rules/CertificateNotNone.php on line 7

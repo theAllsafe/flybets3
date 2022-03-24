@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        #map {
+  height: 400px;
+}
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.css" rel="stylesheet">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvrWwydlLEhYsmISJ4OEP1HesTuSTOyD8&libraries=places&callback=initAutocomplete" async defer></script>
+ <!--<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvrWwydlLEhYsmISJ4OEP1HesTuSTOyD8&callback=initMap"></script>-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+<div id="map"></div>
+<script type="text/javascript">
+  // center of the map
+var center = [28.5355, 77.3910];
+
+// Create the map
+var map = L.map('map').setView(center, 16);
+
+// Set up the OSM layer
+L.tileLayer(
+  'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 18
+  }).addTo(map);
+
+// add a marker in the given location
+L.marker(center).addTo(map);
+
+// Initialise the FeatureGroup to store editable layers
+var editableLayers = new L.FeatureGroup();
+map.addLayer(editableLayers);
+
+// define custom marker
+var MyCustomMarker = L.Icon.extend({
+  options: {
+    shadowUrl: null,
+    iconAnchor: new L.Point(12, 12),
+    iconSize: new L.Point(24, 24),
+    iconUrl: 'https://upload.wikimedia.org/wikipedia/commons/6/6b/Information_icon4_orange.svg'
+  }
+});
+
+var drawPluginOptions = {
+  position: 'topright',
+  draw: {
+    polyline: {
+      shapeOptions: {
+        color: '#f357a1',
+        weight: 10
+      }
+    },
+    polygon: {
+      allowIntersection: false, // Restricts shapes to simple polygons
+      drawError: {
+        color: '#e1e100', // Color the shape will turn when intersects
+        message: '<strong>Polygon draw does not allow intersections!<strong> (allowIntersection: false)' // Message that will show when intersect
+      },
+      shapeOptions: {
+        color: '#bada55'
+      }
+    },
+    circle: false, // Turns off this drawing tool
+    rectangle: {
+      shapeOptions: {
+        clickable: false
+      }
+    },
+    marker: {
+      icon: new MyCustomMarker()
+    }
+  },
+  edit: {
+    featureGroup: editableLayers, //REQUIRED!!
+    remove: false
+  }
+};
+
+
+
+
+
+// Initialise the draw control and pass it the FeatureGroup of editable layers
+var drawControl = new L.Control.Draw(drawPluginOptions);
+map.addControl(drawControl);
+
+
+var editableLayers = new L.FeatureGroup();
+map.addLayer(editableLayers);
+
+
+
+
+map.on('draw:created', function(e) {
+  var type = e.layerType,
+    layer = e.layer;
+
+  if (type === 'marker') {
+    layer.bindPopup('A popup!');
+  }
+
+  editableLayers.addLayer(layer);
+});
+
+</script>
+</body>
+</html>

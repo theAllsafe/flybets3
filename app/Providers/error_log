@@ -1,0 +1,24 @@
+[12-Mar-2022 15:48:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Support\Providers\AuthServiceProvider' not found in /home/bittaskc/public_html/drons-master/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/bittaskc/public_html/drons-master/app/Providers/AuthServiceProvider.php on line 8
+[12-Mar-2022 15:48:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Support\Providers\RouteServiceProvider' not found in /home/bittaskc/public_html/drons-master/app/Providers/RouteServiceProvider.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/bittaskc/public_html/drons-master/app/Providers/RouteServiceProvider.php on line 11
+[12-Mar-2022 15:49:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\ServiceProvider' not found in /home/bittaskc/public_html/drons-master/app/Providers/AppServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/bittaskc/public_html/drons-master/app/Providers/AppServiceProvider.php on line 8
+[12-Mar-2022 15:49:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\ServiceProvider' not found in /home/bittaskc/public_html/drons-master/app/Providers/AppServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/bittaskc/public_html/drons-master/app/Providers/AppServiceProvider.php on line 8
+[12-Mar-2022 15:51:27 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Support\Providers\EventServiceProvider' not found in /home/bittaskc/public_html/drons-master/app/Providers/EventServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/bittaskc/public_html/drons-master/app/Providers/EventServiceProvider.php on line 10
+[12-Mar-2022 15:52:42 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\ServiceProvider' not found in /home/bittaskc/public_html/drons-master/app/Providers/BroadcastServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/bittaskc/public_html/drons-master/app/Providers/BroadcastServiceProvider.php on line 8

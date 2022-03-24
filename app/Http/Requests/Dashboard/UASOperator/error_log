@@ -1,0 +1,16 @@
+[12-Mar-2022 15:59:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/bittaskc/public_html/drons-master/app/Http/Requests/Dashboard/UASOperator/UpdateUASOperatorRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/bittaskc/public_html/drons-master/app/Http/Requests/Dashboard/UASOperator/UpdateUASOperatorRequest.php on line 7
+[12-Mar-2022 16:03:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/bittaskc/public_html/drons-master/app/Http/Requests/Dashboard/UASOperator/StoreUASOperatorRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/bittaskc/public_html/drons-master/app/Http/Requests/Dashboard/UASOperator/StoreUASOperatorRequest.php on line 10
+[12-Mar-2022 16:03:52 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/bittaskc/public_html/drons-master/app/Http/Requests/Dashboard/UASOperator/StoreUASOperatorByUserRequest.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/bittaskc/public_html/drons-master/app/Http/Requests/Dashboard/UASOperator/StoreUASOperatorByUserRequest.php on line 9
+[12-Mar-2022 16:06:22 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/bittaskc/public_html/drons-master/app/Http/Requests/Dashboard/UASOperator/UpdateUASOperatorByUserRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/bittaskc/public_html/drons-master/app/Http/Requests/Dashboard/UASOperator/UpdateUASOperatorByUserRequest.php on line 7

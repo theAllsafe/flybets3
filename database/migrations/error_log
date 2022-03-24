@@ -1,0 +1,44 @@
+[12-Mar-2022 15:27:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/bittaskc/public_html/drons-master/database/migrations/2021_12_15_115824_create_unmanned_aircraft_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/bittaskc/public_html/drons-master/database/migrations/2021_12_15_115824_create_unmanned_aircraft_table.php on line 7
+[12-Mar-2022 15:27:40 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/bittaskc/public_html/drons-master/database/migrations/2022_01_23_163738_create_organisation_members_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/bittaskc/public_html/drons-master/database/migrations/2022_01_23_163738_create_organisation_members_table.php on line 7
+[12-Mar-2022 15:27:41 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/bittaskc/public_html/drons-master/database/migrations/2021_12_25_093532_create_r_p_t_o_s_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/bittaskc/public_html/drons-master/database/migrations/2021_12_25_093532_create_r_p_t_o_s_table.php on line 7
+[12-Mar-2022 15:27:41 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/bittaskc/public_html/drons-master/database/migrations/2021_12_25_093532_create_r_p_t_o_s_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/bittaskc/public_html/drons-master/database/migrations/2021_12_25_093532_create_r_p_t_o_s_table.php on line 7
+[12-Mar-2022 15:29:31 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/bittaskc/public_html/drons-master/database/migrations/2019_08_19_000000_create_failed_jobs_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/bittaskc/public_html/drons-master/database/migrations/2019_08_19_000000_create_failed_jobs_table.php on line 7
+[12-Mar-2022 15:32:32 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/bittaskc/public_html/drons-master/database/migrations/2014_10_12_100000_create_password_resets_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/bittaskc/public_html/drons-master/database/migrations/2014_10_12_100000_create_password_resets_table.php on line 7
+[12-Mar-2022 15:34:33 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/bittaskc/public_html/drons-master/database/migrations/2014_10_12_000000_create_users_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/bittaskc/public_html/drons-master/database/migrations/2014_10_12_000000_create_users_table.php on line 7
+[12-Mar-2022 15:46:13 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/bittaskc/public_html/drons-master/database/migrations/2021_12_15_120807_create_organisations_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/bittaskc/public_html/drons-master/database/migrations/2021_12_15_120807_create_organisations_table.php on line 7
+[12-Mar-2022 15:53:50 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/bittaskc/public_html/drons-master/database/migrations/2021_12_23_105836_create_countries_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/bittaskc/public_html/drons-master/database/migrations/2021_12_23_105836_create_countries_table.php on line 7
+[12-Mar-2022 15:56:20 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/bittaskc/public_html/drons-master/database/migrations/2021_12_15_120714_create_flight_plans_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/bittaskc/public_html/drons-master/database/migrations/2021_12_15_120714_create_flight_plans_table.php on line 7
+[12-Mar-2022 15:57:56 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/bittaskc/public_html/drons-master/database/migrations/2019_12_14_000001_create_personal_access_tokens_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/bittaskc/public_html/drons-master/database/migrations/2019_12_14_000001_create_personal_access_tokens_table.php on line 7

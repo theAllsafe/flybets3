@@ -1,0 +1,3 @@
+[18-Mar-2022 17:36:48 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 113250304 bytes) in /home/bittaskc/public_html/drone/app/Http/Controllers/Dashboard/FlightPlanController.php on line 88
+[18-Mar-2022 17:37:07 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 113250304 bytes) in /home/bittaskc/public_html/drone/app/Http/Controllers/Dashboard/FlightPlanController.php on line 88
+[18-Mar-2022 17:40:00 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 113250304 bytes) in /home/bittaskc/public_html/drone/app/Http/Controllers/Dashboard/FlightPlanController.php on line 88
